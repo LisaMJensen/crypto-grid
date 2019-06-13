@@ -23,9 +23,12 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 _{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
 
 ## Specs
-* _Remove all special characters and down case string_
-* __
-* __
+* _Remove all special characters, spaces and lower case string._
+* _Found total number of characters._
+* _Created rows and columns based on square root of the total characters_
+* _Switched the string into an array and input each character into it's own box within the rows/columns._
+* _Created five character words from array._
+*  _Converted the array back to a string and displayed to the UI._
 
 ## Support and contact details
 
