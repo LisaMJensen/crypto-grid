@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Cryptosquare</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cryptosquare</h1>
+
+       <form id="cryptoForm">
+         <div class="form-group">
+           <label>Enter a sentence to turn it into a coded message: </label>
+           <input id="userString" type="text">
+         </div>
+
+         <button type="submit" class="btn-default">Encrpyt!</button>
+       </form>
+       <br>
+       <div id="output">
+         <p><strong><span class="initialString"></span></strong><br><br> when encrypted is: <br><br><strong><span class ="result"></span></strong></p>
+       </div>
+    </div>
+  </body>
+</html>
